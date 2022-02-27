@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en el <GifGrid /> Debe mostrar los valores cuando se cargan las imagenes useFetchGifs 1`] = `
+<div>
+  <h3
+    className="animate__bounceOutDown"
+  >
+    one punch
+     
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="titulo"
+      url="https://local/host.jpg"
+    />
+    <GifGridItem
+      id="123"
+      key="123"
+      title="titulo"
+      url="https://local/host.jpg"
+    />
+  </div>
+</div>
+`;
+
+exports[`pruebas en el <GifGrid /> Hacer toMatchSnapshot correcatamente del GifGrid 1`] = `
+<div>
+  <h3
+    className="animate__bounceOutDown"
+  >
+    one punch
+     
+  </h3>
+  <p
+    className="animate__fadeIn"
+  >
+    Loading
+  </p>
+  <div
+    className="card-grid"
+  >
+    <p>
+      no se encontro informacion de 
+      one punch
+    </p>
+  </div>
+</div>
+`;

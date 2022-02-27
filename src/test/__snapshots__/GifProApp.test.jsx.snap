@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mostrar correctamente GifProApp Debe de mostrar una lista de anime 1`] = `
+<Fragment>
+  <h2>
+    <center>
+      GifProApp
+    </center>
+  </h2>
+  <AddCategory
+    setAnime={[Function]}
+  />
+  <hr />
+  <h1>
+    <ol>
+      <GifGrid
+        anime="kimetsu"
+        key="kimetsu"
+      />
+      <GifGrid
+        anime="naruto"
+        key="naruto"
+      />
+    </ol>
+  </h1>
+</Fragment>
+`;
+
+exports[`Mostrar correctamente GifProApp Debe mandar el snapshot correctmanete 1`] = `
+<Fragment>
+  <h2>
+    <center>
+      GifProApp
+    </center>
+  </h2>
+  <AddCategory
+    setAnime={[Function]}
+  />
+  <hr />
+  <h1>
+    <ol />
+  </h1>
+</Fragment>
+`;
